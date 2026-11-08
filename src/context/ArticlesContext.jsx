@@ -45,4 +45,9 @@ export const useArticles = () => {
     throw new Error('useArticles must be used within ArticlesProvider');
   }
   return context;
-};
+}; 
+{
+  john: [article1, article2],
+  mary: [article3],
+  admin: [article4]
+}
